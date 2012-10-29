@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/btnWorkoutChest"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Chest" />
+
+        <Button
+            android:id="@+id/btnWorkoutArms"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Biceps" />
+
+        <Button
+            android:id="@+id/btnWorkoutTriceps"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Triceps" />
+
+        <Button
+            android:id="@+id/btnWorkoutBack"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Back" />
+    </LinearLayout>
+    	<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+        
+        <Button
+            android:id="@+id/btnWorkoutLegs"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Legs" />
+
+        <Button
+            android:id="@+id/btnWorkoutAbs"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Abbs" />
+
+        <Button
+            android:id="@+id/btnWorkoutShoulder"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Shoulder" />
+
+        <Button
+            android:id="@+id/btnWorkoutLats"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Lats" />
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/txtWorkoutNoDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No workouts to display, add under respective muscle groups to continue"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <ListView
+        android:id="@+id/lvWorkouts"
+        android:layout_width="wrap_content"
+        android:layout_height="127dp"
+        android:layout_weight="0.10" >
+
+    </ListView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:id="@+id/txtWorkoutAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10" >
+
+            <requestFocus />
+        </EditText>
+
+        <Button
+            android:id="@+id/btnWorkoutAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add" />
+
+    </LinearLayout>
+
+</LinearLayout>

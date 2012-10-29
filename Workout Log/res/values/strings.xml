@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, WorkoutLogActivity!</string>
+    <string name="app_name">Workout Log</string>
+	<string-array name="MuscleGroup">
+        <item >Chest</item>
+        <item >Biceps</item>
+        <item >Back</item>
+        <item >Legs</item>
+        <item >Abbs</item>
+        <item >Shoulder</item>
+        <item >Triceps</item>
+        <item >Lats</item>
+    </string-array>
+    <string-array name="MuscleGroupValues">
+        <item >C</item>
+        <item >A</item>
+        <item >B</item>
+        <item >L</item>
+        <item >S</item>
+        <item >H</item>
+        <item >P</item>
+        <item >T</item>
+    </string-array>
+</resources>
